@@ -100,9 +100,9 @@ a.active, .nav a:hover{
 .aboutme{
     position: absolute;
     right: 0;
-    top: 10px;
+    top: -5%;
     color: white;
-    padding: 0 60px;
+    padding: 0 120px;
     font-family: century gothic;
     display: none;
 }
@@ -112,10 +112,12 @@ a.active, .nav a:hover{
     margin-bottom: 20px;
 }
 .aboutme p1{
+    font-family: 'Times New Roman', Times, serif;
     font-size: 48px;
+    text-shadow: 2px 2px 4px #000000;
 }
 .aboutme .image{
-    width: 23%;
+    width: 28%;
     margin: 2%;
     float: left;
 }
@@ -135,12 +137,13 @@ a.active, .nav a:hover{
     position: absolute;
     color: white;
     font-family: century gothic;
+    padding: 0 120px;
     display: none;
 }
+
 .professional ul{
-    font-size: 24px;
+    font-size: 36px;
     line-height: 36px;
-    margin-bottom: 20px;
     list-style-position: inside;
 }
 
@@ -149,12 +152,13 @@ a.active, .nav a:hover{
     font-family: verdana;
     line-height: 48px;
     text-transform: uppercase;
-    color: #3498db;
+    color: yellow;
+    background-color: violet;
 }
 
 .portfolio{
     position: absolute;
-    top: 70%;
+    top: 60%;
     transform: translateY(-50%);
     width: 95%;
     text-align: center;
@@ -164,6 +168,22 @@ a.active, .nav a:hover{
     color: white;
     font-family: century gothic;
     font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.portfolio p1{
+    color: yellow;
+    font-family: century gothic;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.portfolio p2{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
     line-height: 36px;
     margin-bottom: 20px;
     text-align: left;
@@ -219,7 +239,7 @@ a.active, .nav a:hover{
 .service{
     position: absolute;
     right: 0;
-    top: 10px;
+    top: -10%;
     color: white;
     padding: 0 60px;
     font-family: century gothic;
@@ -237,7 +257,7 @@ a.active, .nav a:hover{
     float: left;
 }
 .service .image{
-    width: 23%;
+    width: 28%;
     margin: 2%;
     float: left;
 }
